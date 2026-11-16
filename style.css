@@ -1,0 +1,235 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f4f4f4;
+
+    color: #333;
+
+    line-height: 1.6;
+
+}
+
+nav {
+
+    background-color: #243447;
+
+    color: white;
+
+    padding: 20px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+nav ul {
+
+    list-style: none;
+
+    display: flex;
+
+    gap: 20px;
+
+}
+
+nav a {
+
+    color: white;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+
+}
+
+nav a:hover {
+
+    color: #f4b942;
+
+}
+
+.container {
+
+    width: 85%;
+
+    margin: 30px auto;
+
+}
+
+section {
+
+    background-color: white;
+
+    padding: 25px;
+
+    margin-bottom: 25px;
+
+    border-radius: 10px;
+
+    border: 1px solid #ddd;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+    color: #243447;
+
+    margin-bottom: 15px;
+
+}
+
+p {
+
+    margin-bottom: 15px;
+
+}
+
+img {
+
+    width: 180px;
+
+    height: 180px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    margin-top: 15px;
+
+}
+
+ul, ol {
+
+    margin-left: 30px;
+
+}
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 15px;
+
+}
+
+th, td {
+
+    border: 1px solid #ccc;
+
+    padding: 12px;
+
+    text-align: left;
+
+}
+
+th {
+
+    background-color: #243447;
+
+    color: white;
+
+}
+
+form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+
+}
+
+input, textarea {
+
+    padding: 12px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+    font-size: 16px;
+
+}
+
+textarea {
+
+    height: 120px;
+
+}
+
+button {
+
+    background-color: #243447;
+
+    color: white;
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+}
+
+button:hover {
+
+    background-color: #f4b942;
+
+    color: #222;
+
+}
+
+footer {
+
+    background-color: #243447;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+}
+
+@media (max-width: 700px) {
+
+    nav {
+
+        flex-direction: column;
+
+        gap: 15px;
+
+    }
+
+    nav ul {
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+    }
+
+    .container {
+
+        width: 95%;
+    }
+}   
